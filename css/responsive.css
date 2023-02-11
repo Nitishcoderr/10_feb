@@ -1,0 +1,48 @@
+@media only screen and (max-width:756px){
+    p, .contact p{
+        font-size: 10px;
+    }
+    /* navabr */
+    li{
+        display: none;
+    }
+    .ham{
+        display: block;
+    }
+    /* main section */
+    .main-section{
+        flex-direction: column;
+    }
+    .intro-line-2 h1{
+        font-size: 30px;
+    }
+    .intro-line-2 h2{
+        font-size: 17px;
+        
+    }
+    .project{
+        margin-top: 20px;
+        
+    }
+    .project-list{
+        row-gap: 10px;
+        column-gap: 20px; 
+    }
+    /* footer */
+    footer a{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:520px){
+    .intro-line-2 h1{
+        font-size: 15px;
+    }
+    .intro-line-1 h3{
+        font-size: 16px;
+    }
+    .project-list{
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+        column-gap: 20px; 
+    }
+}
